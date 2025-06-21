@@ -1,9 +1,8 @@
 {
   "name": "api-reservas",
   "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "json-server": "^0.17.3"
