@@ -5,8 +5,6 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
-server.use("/api", router); // tu API estará en /api/reservas
+server.use("/api", router);
 
-server.listen(3000, () => {
-    console.log("JSON Server is running");
-});
+module.exports = server;
